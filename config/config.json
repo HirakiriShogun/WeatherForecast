@@ -1,0 +1,10 @@
+{
+    "api_key": "YOUR_API_KEY",
+    "cities": [
+        "Yibin",
+        "Moscow",
+        "Saint_Petersburg"
+    ],
+    "forecast_days": 7,
+    "frequency": 10
+}

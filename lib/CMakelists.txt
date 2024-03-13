@@ -1,0 +1,9 @@
+add_library(weather_forecast Backend.cpp Frontend.cpp)
+
+target_link_libraries(weather_forecast 
+        PUBLIC cpr::cpr
+        PUBLIC nlohmann_json::nlohmann_json
+        PUBLIC ftxui::screen
+        PUBLIC ftxui::dom
+        PUBLIC ftxui::component
+)
